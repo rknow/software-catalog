@@ -1,0 +1,18 @@
+{
+  "schema-version": "v2.1",
+  "dd-service": "true-serve",
+  "contacts": [
+    {
+      "type": "email",
+      "name": "Rock N",
+      "contact": "rcnquest@gmail.com"
+    }
+  ],
+  "application": "Web services",
+  "description": "Generic REST API and GraphQL service endpoints",
+  "tier": "tier 1",
+  "lifecycle": "test",
+  "tags": [
+    "environment:test"
+  ]
+}
