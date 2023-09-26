@@ -16,3 +16,22 @@
     "environment:test"
   ]
 }
+---
+{
+  "schema-version": "v2.1",
+  "dd-service": "true-web",
+  "contacts": [
+    {
+      "type": "email",
+      "name": "Rock N",
+      "contact": "raynodim@gmail.com"
+    }
+  ],
+  "application": "Great Web services",
+  "description": "Generic REST API and GraphQL service endpoints",
+  "tier": "misc tiers",
+  "lifecycle": "test",
+  "tags": [
+    "environment:test"
+  ]
+}
