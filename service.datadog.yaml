@@ -6,6 +6,11 @@
       "type": "email",
       "name": "Rock N",
       "contact": "rcnquest@gmail.com"
+    },
+    {
+      "type": "email",
+      "name": "Ray N",
+      "contact": "raynodim@gmail.com"
     }
   ],
   "application": "Web services",
