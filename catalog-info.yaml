@@ -7,7 +7,7 @@ metadata:
   namespace: distribution
   name: delivery-tracker
   title: Delivery App
-  description: delivery app component responsible for transit processes
+  description: delivery app component responsible for transit processes, see GitHub
   tags: ["framework:react", "db:dynamoDB"]
   links:
     - title: Wiki
