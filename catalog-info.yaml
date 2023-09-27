@@ -64,3 +64,34 @@ spec:
   lifecycle: test
   owner: TMH Careplan Logistics
   system: Logistics
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: component
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: github://design/doc
+    some.annotation: value
+  namespace: distribution
+  name: inventory-tracker
+  title: Inventory App
+  description: inventory app component responsible for tracking orders, see GitHub
+  tags: ["framework:DotNET", "db:dynamoDB", "web:IIS"]
+  links:
+    - title: Wiki
+      url: https://backstage.core.shopist.org/docs/default/component/delivery-cancel
+      icon: help
+    - title: runbook
+      url: https://backstage.core.shopist.org/docs/default/component/rollback
+      icon: help
+    - title: source
+      url: https://gitlab.shopist.org/shopist/delivery-app
+      icon: gitlab
+  ignore-attribute:
+    id: 1
+    value: "ignore_value"
+spec:
+  type: service
+  lifecycle: test
+  owner: TMH Careplan Inventory
+  system: Inventory
