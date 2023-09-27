@@ -33,3 +33,34 @@ spec:
   lifecycle: test
   owner: TMH Careplan
   system: Appointments
+
+  ---
+apiVersion: backstage.io/v1alpha1
+kind: component
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: github://design/doc
+    some.annotation: value
+  namespace: distribution
+  name: logistics-tracker
+  title: Logistics App
+  description: delivery app component responsible for transit processes, see GitHub
+  tags: ["framework:DotNET", "db:dynamoDB"]
+  links:
+    - title: Wiki
+      url: https://backstage.core.shopist.org/docs/default/component/delivery-cancel
+      icon: help
+    - title: runbook
+      url: https://backstage.core.shopist.org/docs/default/component/rollback
+      icon: help
+    - title: source
+      url: https://gitlab.shopist.org/shopist/delivery-app
+      icon: gitlab
+  ignore-attribute:
+    id: 1
+    value: "ignore_value"
+spec:
+  type: service
+  lifecycle: test
+  owner: TMH Careplan Logistics
+  system: Logistics
