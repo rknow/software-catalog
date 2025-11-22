@@ -31,7 +31,7 @@ metadata:
 spec:
   type: service
   lifecycle: test
-  owner: TMH Careplan
+  owner: Providence Careplan
   system: Appointments
 
 ---
@@ -62,7 +62,7 @@ metadata:
 spec:
   type: service
   lifecycle: test
-  owner: TMH Careplan Logistics
+  owner: Providence Careplan Logistics
   system: Logistics
 
 ---
@@ -93,5 +93,5 @@ metadata:
 spec:
   type: service
   lifecycle: test
-  owner: TMH Careplan Inventory
+  owner: Providence Careplan Inventory
   system: Inventory
